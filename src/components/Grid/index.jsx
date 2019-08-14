@@ -52,8 +52,11 @@ export default class Grid extends Component {
     return (
       <main id="mainContent">
         <div className={classnames("text-center", styles.header)}>
-          <h1>Ronnie-Sophie</h1>
-          <p>This is placeholder text. Your web app description goes here.</p>
+          <h1>Ronnie & Sophie</h1>
+          <p>
+            This is a place for Ronnie and Sophie to practice their coding and
+            web development.{" "}
+          </p>
           <a
             href="https://github.com/Microsoft/WebTemplateStudio"
             className="btn btn-primary my-2"

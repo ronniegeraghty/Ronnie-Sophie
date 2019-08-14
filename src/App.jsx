@@ -15,11 +15,11 @@ class App extends Component {
       <React.Fragment>
         <NavBar />
         <Switch>
-          <Redirect exact path = "/" to = "/Master_Detail" />
-          <Route path = "/Master_Detail" component = { Master_Detail } />
-          <Route path = "/List" component = { List } />
-          <Route path = "/Grid" component = { Grid } />
-          <Route path = "/Blank" component = { Blank } />
+          <Redirect exact path="/" to="/Grid" />
+          <Route path="/Master_Detail" component={Master_Detail} />
+          <Route path="/List" component={List} />
+          <Route path="/Grid" component={Grid} />
+          <Route path="/Blank" component={Blank} />
         </Switch>
         <Footer />
       </React.Fragment>
