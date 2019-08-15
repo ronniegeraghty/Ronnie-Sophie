@@ -2,6 +2,7 @@
   "name": "ronnie_sophie",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ronniegeraghty.github.io/Ronnie-Sophie/",
   "dependencies": {
     "body-parser": "^1.18.3",
     "bootstrap": "^4.3.1",
