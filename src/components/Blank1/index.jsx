@@ -3,7 +3,7 @@ import classnames from "classnames";
 import GridComponent from "./GridComponent";
 import WarningMessage from "../WarningMessage";
 import GreyBox from "../../images/GreyBox.svg";
-import styles from "./grid.module.css";
+import styles from "./blank1.module.css";
 import CONSTANTS from "../../constants";
 
 export default class Grid extends Component {

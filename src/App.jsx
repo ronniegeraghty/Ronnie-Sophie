@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 import Master_Detail from "./components/Master_Detail";
 import List from "./components/List";
-import Grid from "./components/Grid";
+import Blank1 from "./components/Blank1";
 import Blank from "./components/Blank";
 //TODO Web Template Studio: Add routes for your new pages here.
 class App extends Component {
@@ -18,7 +18,7 @@ class App extends Component {
           <Redirect exact path="/" to="/Blank" />
           <Route path="/Master_Detail" component={Master_Detail} />
           <Route path="/List" component={List} />
-          <Route path="/Grid" component={Grid} />
+          <Route path="/Grid" component={Blank1} />
           <Route path="/Blank" component={Blank} />
         </Switch>
         <Footer />
