@@ -15,17 +15,14 @@ export default function NavBar() {
           Ronnie & Sophie
         </Link>
         <div className="navbar-nav">
-          <Link className="nav-item nav-link active" to="Master_Detail">
-            Master_Detail
+          <Link className="nav-item nav-link active" to="Blank">
+            Blank
           </Link>
           <Link className="nav-item nav-link active" to="List">
             List
           </Link>
           <Link className="nav-item nav-link active" to="Grid">
             Grid
-          </Link>
-          <Link className="nav-item nav-link active" to="Blank">
-            Blank
           </Link>
         </div>
       </nav>

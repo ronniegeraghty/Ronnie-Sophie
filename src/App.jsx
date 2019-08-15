@@ -4,7 +4,6 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 
-import Master_Detail from "./components/Master_Detail";
 import List from "./components/List";
 import Blank1 from "./components/Blank1";
 import Blank from "./components/Blank";
@@ -16,7 +15,6 @@ class App extends Component {
         <NavBar />
         <Switch>
           <Redirect exact path="/" to="/Blank" />
-          <Route path="/Master_Detail" component={Master_Detail} />
           <Route path="/List" component={List} />
           <Route path="/Grid" component={Blank1} />
           <Route path="/Blank" component={Blank} />
