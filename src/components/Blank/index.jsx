@@ -1,9 +1,17 @@
 ﻿import React from "react";
 
-export default function Blank() {
-  return (
-    <main id="mainContent">
-      <h1> Welcome to Ronnie & Sophie's Website!</h1>
-    </main>
-  );
+class Blank extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+  render() {
+    return (
+      <div>
+        <p>Ronnie & Sophie's Website!!</p>
+      </div>
+    );
+  }
 }
+
+export default Blank;
