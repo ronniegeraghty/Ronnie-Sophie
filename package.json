@@ -2,7 +2,6 @@
   "name": "ronnie_sophie",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ronniegeraghty.github.io/Ronnie-Sophie/",
   "dependencies": {
     "body-parser": "^1.18.3",
     "bootstrap": "^4.3.1",
@@ -30,7 +29,7 @@
     "start-frontend": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "react-scripts build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -s build",
     "push-deploy": "./scripts/push-deploy.sh",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
