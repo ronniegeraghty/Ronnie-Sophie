@@ -18,5 +18,5 @@ npm run predeploy
 echo "Running deploy."
 npm run deploy
 
-
+echo "Deploy Completed"
 
