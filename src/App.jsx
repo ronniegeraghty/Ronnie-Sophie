@@ -1,12 +1,12 @@
-﻿import React, { Component } from "react";
+import React, { Component } from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
+//import Footer from "./components/Footer";
 
-import List from "./components/List";
-import Blank1 from "./components/Blank1";
-import Blank from "./components/Blank";
+import Home from "./components/Home";
+import Ronnie from "./components/Ronnie";
+import Sophie from "./components/Sophie";
 //TODO Web Template Studio: Add routes for your new pages here.
 class App extends Component {
   render() {
@@ -14,12 +14,12 @@ class App extends Component {
       <React.Fragment>
         <NavBar />
         <Switch>
-          <Redirect exact path="/" to="/Blank" />
-          <Route path="/List" component={List} />
-          <Route path="/Grid" component={Blank1} />
-          <Route path="/Blank" component={Blank} />
+          <Redirect exact path="/" to="/Home" />
+          <Route path="/Home" component={Home} />
+          <Route path="/Ronnie" component={Ronnie} />
+          <Route path="/Sophie" component={Sophie} />
         </Switch>
-        <Footer />
+        {/* <Footer /> */}
       </React.Fragment>
     );
   }
