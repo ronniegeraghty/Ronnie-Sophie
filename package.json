@@ -2,6 +2,7 @@
   "name": "ronnie-sophie-rebase",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://ronniegeraghty.github.io/Ronnie-Sophie",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.9.0",
