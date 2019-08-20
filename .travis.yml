@@ -7,5 +7,6 @@ script:
 install:
   - npm install -g firebase-tools
   - npm install -g react
+  - npm install -g react-scripts
 after_success:
   - firebase deploy --project ronnie-sophie --token $FIREBASE_TOKEN
