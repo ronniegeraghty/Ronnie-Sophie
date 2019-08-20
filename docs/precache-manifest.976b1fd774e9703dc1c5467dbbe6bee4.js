@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "96d7d07a2a4d83d3bc5e8f4376b1b1a5",
+    "revision": "0a40f5d5b751f6c61257874a6d87fd61",
     "url": "/Ronnie-Sophie/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ronnie-Sophie/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "880b2a671b14b51aa163",
+    "revision": "8e75e25380f8e8f81fb8",
     "url": "/Ronnie-Sophie/static/css/main.674d243f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ronnie-Sophie/static/js/2.f920a85c.chunk.js"
   },
   {
-    "revision": "880b2a671b14b51aa163",
-    "url": "/Ronnie-Sophie/static/js/main.0403df30.chunk.js"
+    "revision": "8e75e25380f8e8f81fb8",
+    "url": "/Ronnie-Sophie/static/js/main.76eabcb7.chunk.js"
   },
   {
     "revision": "a8fc842f675a4299e2b8",
