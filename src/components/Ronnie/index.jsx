@@ -7,7 +7,7 @@ class Ronnie extends Component {
     return (
       <div className={styles}>
         <Jumbotron>
-          <h1>Ronnie's Dingus Page</h1>
+          <h1>Ronnie's Page</h1>
           <p>Ronnie's page to be a dingus.</p>
           <p>
             <a href="https://github.com/ronniegeraghty/Ronnie-Sophie">
