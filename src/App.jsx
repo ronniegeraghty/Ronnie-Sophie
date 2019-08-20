@@ -13,6 +13,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <NavBar />
+        <Home />
         <Switch>
           <Redirect exact path="/" to="/Home" />
           <Route path="/Home" component={Home} />
