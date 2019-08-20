@@ -1,7 +1,10 @@
 #!/bin/bash
 
-srcdir="../build"
-dstdir="../docs"
+rm -R docs
+mkdir docs
+
+srcdir="build"
+dstdir="docs"
 
 for f in ${srcdir}/*
 do
