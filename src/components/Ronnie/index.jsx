@@ -1,8 +1,11 @@
 import React, { Component } from "react";
 import { Jumbotron, Button } from "react-bootstrap";
 import styles from "./ronnie.module.css";
+import RepoCard from "../RepoCard";
 
 class Ronnie extends Component {
+  state = { repoTitle: "Plant Watch" };
+
   render() {
     return (
       <div className={styles}>
@@ -15,6 +18,7 @@ class Ronnie extends Component {
             </a>
           </p>
         </Jumbotron>
+        <RepoCard repoTitle={this.state.repoTitle} />
       </div>
     );
   }
