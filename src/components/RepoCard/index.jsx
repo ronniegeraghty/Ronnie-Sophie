@@ -9,7 +9,7 @@ class RepoCard extends Component {
           <Card.Body>
             <Card.Title>{this.props.repoTitle}</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">
-              Example Card Subtitle
+              Repo Description
             </Card.Subtitle>
             <Card.Text>
               Some quick example text to build on the card title and make up the
