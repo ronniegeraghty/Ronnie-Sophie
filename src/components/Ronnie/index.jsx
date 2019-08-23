@@ -8,7 +8,7 @@ class Ronnie extends Component {
       <div className={styles}>
         <Jumbotron>
           <h1>Ronnie's Page</h1>
-          <p>Ronnie's page to be a dingus.</p>
+          <p>Ronnie's page to be a dingus flingus.</p>
           <p>
             <a href="https://github.com/ronniegeraghty">
               <Button variant="primary">Ronnie's GitHub</Button>

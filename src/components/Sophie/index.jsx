@@ -10,7 +10,7 @@ class Sophie extends Component {
           <h1>Sophie's Page</h1>
           <p>Sophie's page to be a dingus.</p>
           <p>
-            <a href="https://github.com/ronniegeraghty/Ronnie-Sophie">
+            <a href="https://github.com/SophieGCollin">
               <Button variant="primary">Sophie's GitHub</Button>
             </a>
           </p>
