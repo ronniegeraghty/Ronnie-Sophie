@@ -8,7 +8,7 @@ class Sophie extends Component {
       <div className={styles}>
         <Jumbotron>
           <h1>Sophie's Page</h1>
-          <p>Sophie's page to be a dingus.</p>
+          <p>Sophie's page to be a dingus flingus.</p>
           <p>
             <a href="https://github.com/SophieGCollin">
               <Button variant="primary">Sophie's GitHub</Button>
