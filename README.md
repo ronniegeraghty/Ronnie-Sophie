@@ -4,8 +4,8 @@
 
 This is the repository for Ronnie and Sophie's practice website, where they test their coding and web development.
 
-This porject uses a [React](https://reactjs.org/) front end and a [Travis-ci](https://travis-ci.org/) pipeline to deploy to [Firebase](https://firebase.google.com/) hosting. The website is hosted at:
-[ronnie-sophie.web.app](ronnie-sophie.web.app)
+This porject uses a [React](https://reactjs.org/) front end and a [Travis-ci](https://travis-ci.org/) pipeline to deploy to [Firebase](https://firebase.google.com/) hosting. The website is hosted at:<br>
+[ronnie-sophie.web.app](ronnie-sophie.web.app)<br>
 [ronnie-sophie.firebaseapp.com](ronnie-sophie.firebaseapp.com)
 
 ## Installation
