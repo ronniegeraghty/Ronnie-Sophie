@@ -38,7 +38,7 @@ class Ronnie extends Component {
   render() {
     return (
       <div className={styles.page}>
-        <Jumbotron>
+        <Jumbotron bsPrefix={styles.jumbotron}>
           <Row>
             <Col lg={2} md={2} sm={12}>
               <Image src={profilePic} roundedCircle fluid></Image>
