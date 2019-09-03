@@ -9,7 +9,9 @@ import {
   Card,
   Toast
 } from "react-bootstrap";
-import styles from "./ronnie.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { fabLin } from "@fortawesome/free-solid-svg-icons";
+import "./ronnie.css";
 import profilePic from "./ronnieProfile.png";
 
 class Ronnie extends Component {
@@ -37,18 +39,37 @@ class Ronnie extends Component {
 
   render() {
     return (
-      <div className={styles.page}>
-        <Jumbotron bsPrefix={styles.jumbotron}>
+      <div>
+        <Jumbotron>
           <Row>
             <Col lg={2} md={2} sm={12}>
               <Image src={profilePic} roundedCircle fluid></Image>
             </Col>
             <Col lg={4} md={4} sm={12}>
-              <h1>Ronnie's Page</h1>
-              <p>Ronnie's page to be a dingus.</p>
+              <h1>Ronnie Geraghty</h1>
+              <p>
+                Developer & <br />
+                IBM zDevOps Technical Specialist
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
               <p>
                 <a href="https://github.com/ronniegeraghty">
-                  <Button variant="dark">Ronnie's GitHub</Button>
+                  <Button variant="dark">
+                    <i class="fab fa-github"></i>
+                    Ronnie's GitHub
+                  </Button>
+                </a>
+              </p>
+            </Col>
+            <Col>
+              <p>
+                <a href="https://github.com/ronniegeraghty">
+                  <Button variant="primary">
+                    <i class="fab fa-linkedin"></i>Ronnie's LinkedIn
+                  </Button>
                 </a>
               </p>
             </Col>
@@ -56,7 +77,7 @@ class Ronnie extends Component {
         </Jumbotron>
         <Row className="mr-auto">
           <Col lg={4} md={6} sm={12}>
-            <Card className={styles.card}>
+            <Card>
               <Card.Body>
                 <Form>
                   <Form.Group controlId="name">
