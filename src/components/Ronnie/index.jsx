@@ -9,9 +9,8 @@ import {
   Card,
   Toast
 } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { fabLin } from "@fortawesome/free-solid-svg-icons";
 import "./ronnie.css";
+import ExperienceCard from "../ExperienceCard";
 import profilePic from "./ronnieProfile.png";
 
 class Ronnie extends Component {
@@ -57,9 +56,9 @@ class Ronnie extends Component {
             <Col>
               <p>
                 <a href="https://github.com/ronniegeraghty">
-                  <Button variant="dark">
+                  <Button variant="outline-dark">
                     <i className="fab fa-github"></i>
-                    Ronnie's GitHub
+                    GitHub
                   </Button>
                 </a>
               </p>
@@ -67,14 +66,21 @@ class Ronnie extends Component {
             <Col>
               <p>
                 <a href="https://github.com/ronniegeraghty">
-                  <Button variant="primary">
-                    <i className="fab fa-linkedin"></i>Ronnie's LinkedIn
+                  <Button variant="outline-primary">
+                    <i className="fab fa-linkedin"></i>LinkedIn
                   </Button>
                 </a>
               </p>
             </Col>
           </Row>
         </Jumbotron>
+        <section id="experience">
+          <h1>Experience</h1>
+          <Row>
+            <ExperienceCard company="IBM" />
+          </Row>
+        </section>
+
         <Row className="mr-auto">
           <Col lg={4} md={6} sm={12}>
             <Card>
