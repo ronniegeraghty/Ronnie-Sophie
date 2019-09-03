@@ -58,7 +58,7 @@ class Ronnie extends Component {
               <p>
                 <a href="https://github.com/ronniegeraghty">
                   <Button variant="dark">
-                    <i class="fab fa-github"></i>
+                    <i className="fab fa-github"></i>
                     Ronnie's GitHub
                   </Button>
                 </a>
@@ -68,7 +68,7 @@ class Ronnie extends Component {
               <p>
                 <a href="https://github.com/ronniegeraghty">
                   <Button variant="primary">
-                    <i class="fab fa-linkedin"></i>Ronnie's LinkedIn
+                    <i className="fab fa-linkedin"></i>Ronnie's LinkedIn
                   </Button>
                 </a>
               </p>
