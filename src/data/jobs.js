@@ -1,7 +1,6 @@
 module.exports = [
   {
     id: 1,
-    picture: "../../images/ibmLogo.png",
     company: "IBM",
     time: "July 2018 - Present",
     role: "zDevOps Technical Specialist",
@@ -11,7 +10,6 @@ module.exports = [
   },
   {
     id: 2,
-    picture: "",
     company: "IBM",
     time: "May 2017 - August 2017",
     role: "Summit Technical Specilaist Intern",
@@ -20,7 +18,6 @@ module.exports = [
   },
   {
     id: 3,
-    picture: "",
     company: "E-J Electric Installation Co.",
     time: "June 2016 - August 2016",
     role: "Project Management Intern",
