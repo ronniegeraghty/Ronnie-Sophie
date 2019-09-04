@@ -1,23 +1,17 @@
 import React, { Component } from "react";
-import { Button, Card } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 export default class ExperienceCard extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      picture: props.picture,
-      company: props.company
-    };
-  }
-
   render() {
     return (
       <div>
         <Card>
-          <Card.Img variant="top" src={this.state.picture} />
+          <Card.Img variant="top" src={this.props.job.picture} />
           <Card.Body>
-            <Card.Title>{this.state.company}</Card.Title>
+            <Card.Title>{this.props.job.company}</Card.Title>
+            <Card.Text>{this.props.job.time}</Card.Text>
+            <Card.Text>{this.props.job.role}</Card.Text>
+            <Card.Text>{this.props.job.description}</Card.Text>
           </Card.Body>
         </Card>
       </div>

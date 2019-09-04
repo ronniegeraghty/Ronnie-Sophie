@@ -1,132 +1,32 @@
 import React, { Component } from "react";
-import {
-  Button,
-  Col,
-  Image,
-  Jumbotron,
-  Row,
-  Form,
-  Card,
-  Toast
-} from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import "./ronnie.css";
+import Title from "./title";
 import ExperienceCard from "../ExperienceCard";
-import profilePic from "./ronnieProfile.png";
+var jobs = require("./jobs");
 
 class Ronnie extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      showToast: false,
-      name: ""
-    };
-    this.toggleToast = this.toggleToast.bind(this);
-    this.handleChange = this.handleChange.bind(this);
-    this.submitButton = this.submitButton.bind(this);
-  }
-  toggleToast() {
-    this.setState({ showToast: !this.state.showToast });
-  }
-  handleChange(event) {
-    this.setState({ name: event.target.value });
-    console.log(this.state.name);
-  }
-  submitButton(e) {
-    e.preventDefault();
-    this.toggleToast();
+    this.state = {};
   }
 
   render() {
     return (
       <div>
-        <Jumbotron>
-          <Row>
-            <Col lg={2} md={2} sm={12}>
-              <Image src={profilePic} roundedCircle fluid></Image>
-            </Col>
-            <Col lg={4} md={4} sm={12}>
-              <h1>Ronnie Geraghty</h1>
-              <p>
-                Developer & <br />
-                IBM zDevOps Technical Specialist
-              </p>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <p>
-                <a href="https://github.com/ronniegeraghty">
-                  <Button variant="outline-dark">
-                    <i className="fab fa-github"></i>
-                    GitHub
-                  </Button>
-                </a>
-              </p>
-            </Col>
-            <Col>
-              <p>
-                <a href="https://github.com/ronniegeraghty">
-                  <Button variant="outline-primary">
-                    <i className="fab fa-linkedin"></i>LinkedIn
-                  </Button>
-                </a>
-              </p>
-            </Col>
-          </Row>
-        </Jumbotron>
+        <Title />
         <section id="experience">
           <h1>Experience</h1>
           <Row>
-            <ExperienceCard company="IBM" />
+            {jobs.map(job => {
+              return (
+                <Col lg={4} key={job.id}>
+                  <ExperienceCard job={job} key={job.id} />
+                </Col>
+              );
+            })}
           </Row>
         </section>
-
-        <Row className="mr-auto">
-          <Col lg={4} md={6} sm={12}>
-            <Card>
-              <Card.Body>
-                <Form>
-                  <Form.Group controlId="name">
-                    <Form.Label>Enter Your Name</Form.Label>
-                    <Form.Control
-                      type="text"
-                      value={this.state.name}
-                      onChange={this.handleChange}
-                      placeholder="Name"
-                    />
-                    <Form.Text className="text-muted">
-                      Click "Submit" below when your done.
-                    </Form.Text>
-                  </Form.Group>
-                  <Button
-                    variant="primary"
-                    type="submit"
-                    onClick={this.submitButton}
-                  >
-                    Submit
-                  </Button>
-                </Form>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col lg={4} md={6} sm={12}>
-            <Toast show={this.state.showToast} onClose={this.toggleToast}>
-              <Toast.Header>
-                <img
-                  src="holder.js/20x20?text=%20"
-                  className="rounded mr-2"
-                  alt=""
-                />
-                <strong className="mr-auto">Hello!</strong>
-                <small>11 min ago</small>
-              </Toast.Header>
-              <Toast.Body>
-                {" "}
-                Hello {this.state.name}! Welcome to my page.{" "}
-              </Toast.Body>
-            </Toast>
-          </Col>
-        </Row>
       </div>
     );
   }
