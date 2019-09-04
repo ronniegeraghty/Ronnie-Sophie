@@ -3,14 +3,9 @@ import { Row, Col } from "react-bootstrap";
 import "./ronnie.css";
 import Title from "./title";
 import ExperienceCard from "../ExperienceCard";
-var jobs = require("./jobs");
+var jobs = require("../../data/jobs");
 
 class Ronnie extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
   render() {
     return (
       <div>

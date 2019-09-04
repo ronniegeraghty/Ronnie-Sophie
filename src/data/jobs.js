@@ -1,7 +1,7 @@
 module.exports = [
   {
     id: 1,
-    picture: "",
+    picture: "../../images/ibmLogo.png",
     company: "IBM",
     time: "July 2018 - Present",
     role: "zDevOps Technical Specialist",
@@ -17,5 +17,14 @@ module.exports = [
     role: "Summit Technical Specilaist Intern",
     description:
       "Apart of the IBM Summit Internship Program. Worked on Healthcare ChatBot project that brought data on a mainframe into a chat-interface."
+  },
+  {
+    id: 3,
+    picture: "",
+    company: "E-J Electric Installation Co.",
+    time: "June 2016 - August 2016",
+    role: "Project Management Intern",
+    description:
+      "Worked in the bidding and planning process for many projects. "
   }
 ];

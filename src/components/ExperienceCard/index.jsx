@@ -6,7 +6,7 @@ export default class ExperienceCard extends Component {
     return (
       <div>
         <Card>
-          <Card.Img variant="top" src={this.props.job.picture} />
+          <Card.Img variant="top" src="" />
           <Card.Body>
             <Card.Title>{this.props.job.company}</Card.Title>
             <Card.Text>{this.props.job.time}</Card.Text>
