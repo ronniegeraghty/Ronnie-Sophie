@@ -25,7 +25,9 @@ export default class ExperienceCard extends Component {
           <Card.Img variant="top" src={this.setPicture()} />
           <Card.Body>
             <Card.Title>{this.props.job.company}</Card.Title>
-            <Card.Text>{this.props.job.time}</Card.Text>
+            <Card.Subtitle className="mb-2 text-muted">
+              {this.props.job.time}
+            </Card.Subtitle>
             <Card.Text>{this.props.job.role}</Card.Text>
             <Card.Text>{this.props.job.description}</Card.Text>
           </Card.Body>

@@ -11,7 +11,7 @@ class Ronnie extends Component {
       <div>
         <Title />
         <section id="experience">
-          <h1>Experience</h1>
+          <h2>Experience</h2>
           <Row>
             {jobs.map(job => {
               return (
@@ -21,6 +21,9 @@ class Ronnie extends Component {
               );
             })}
           </Row>
+        </section>
+        <section id="projects">
+          <h2>Projects</h2>
         </section>
       </div>
     );
